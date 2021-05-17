@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin template v1.0</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="body">
+    <!-- START-SIDERBAR -->
+        <div class="sidebar" id="navbar">
+
+            <nav class="side-nav">
+                <div>
+                <div class="nav__brand">
+                    <i class="fa fa-bars nav__toggle" id="nav-toggle"></i>
+                    <a href="#" class="nav__logo">Restaurant Name</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active-link">
+                        <i class="fa fa-home nav__icon"></i>
+                        <span class="nav__name">Dashboard</span>
+                    </a>
+                    <div class="nav__link menu-collapse">
+                        <i class="fa fa-pie-chart nav__icon"></i>
+                        <span class="nav__name">Analytics</span>
+                        <i class="fa fa-angle-down collapse__link"></i>
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__submenu">sold</a>
+                            <a href="#" class="collapse__submenu">buy</a>
+                            <a href="#" class="collapse__submenu">clients</a>
+                            <a href="#" class="collapse__submenu">reports</a>
+
+                        </ul>
+                    </div>
+                    <a href="#" class="nav__link">
+                        <i class="fa fa-users nav__icon"></i>
+                        <span class="nav__name">User</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <i class="fa fa-desktop nav__icon"></i>
+                        <span class="nav__name">negocios</span>
+                    </a>
+                   
+                    <div class="nav__link menu-collapse">
+                        <i class="fa fa-book nav__icon"></i>
+                        <span class="nav__name">Pedidos</span>
+                        <i class="fa fa-angle-down collapse__link"></i>
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__submenu">sold</a>
+                            <a href="#" class="collapse__submenu">buy</a>
+                            <a href="#" class="collapse__submenu">clients</a>
+                            <a href="#" class="collapse__submenu">reports</a>
+
+                        </ul>
+                    </div>
+                    
+                    
+                    <a href="#" class="nav__link">
+                        <i class="fa fa-cog nav__icon"></i>
+                        <span class="nav__name">Setting</span>
+                    </a>
+                    <div class="nav__link menu-collapse">
+                        <i class="fa fa-book nav__icon"></i>
+                        <span class="nav__name">Pedidos</span>
+                        <i class="fa fa-angle-down collapse__link"></i>
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__submenu">sold</a>
+                            <a href="#" class="collapse__submenu">buy</a>
+                            <a href="#" class="collapse__submenu">clients</a>
+                            <a href="#" class="collapse__submenu">reports</a>
+
+                        </ul>
+                    </div>
+                    
+                </div>
+               
+             </div>
+             <a href="login.html" class="nav__link">
+                <i class="fa fa-sign-out nav__icon"></i>
+                <span>Log Out</span>
+            </a>
+            </nav>
+        </div>
+    <!-- END-SIDEBAR -->
+        
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logotipo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+             
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+      <!-- CONTENT START -->
+    <div class="container-fluid">
+            
+            <div id="breadcrumb" class="p-3 d-flex justify-content-between">
+                <div>
+                    <h3>Dashboard</h3>
+                </div>
+                <!-- BREADCRUM START -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Library</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                  </nav>
+                <!-- END BREADCRUMD -->
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-item">
+                                        <span>Order</span>
+                                        <h4>1230</h4>
+                                    </div>
+                                    <div class="card-icon">
+                                        <i class="fa fa-book"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-item">
+                                        <span>Order</span>
+                                        <h4>1230</h4>
+                                    </div>
+                                    <div class="card-icon">
+                                        <i class="fa fa-book"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-item">
+                                        <span>Order</span>
+                                        <h4>1230</h4>
+                                    </div>
+                                    <div class="card-icon">
+                                        <i class="fa fa-book"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                       <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-title p-3">
+                                <h3>Listado de pedidos</h3>
+                                <small>Ultimos pedidos</small>
+                            </div>
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                          Featured
+                        </div>
+                        <div class="card-body">
+                        
+                        </div>
+                      </div>
+                </div>
+            </div>
+           
+    </div>
+    <!-- END CONTENT -->
+
+    <!-- SCRIPTS -->
+    <script src="./bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
